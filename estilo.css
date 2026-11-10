@@ -1,0 +1,99 @@
+/*Estilo General*/
+body
+{
+    background-color: rgb(224, 190, 165);
+    color: rgb(36, 27, 7);
+    font-family: Calibri;
+    margin: 0;
+    text-align: center;
+}
+
+/*Encabezado*/
+header
+{
+    background-color: rgb(53, 29, 1);
+    color: white;
+    padding: 30px;
+}
+
+header h1
+{
+    font-size: 40px;
+}
+
+/*Menu de navegacion*/
+nav
+{
+    background-color: rgb(95, 54, 6);
+    padding: 15px;
+}
+
+nav a
+{
+    color: rgb(255, 254, 253);
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+}
+
+/*Diseño de la imagen*/
+img
+{
+    width: 300px;
+    border-radius: 15px;
+}
+
+/*Lista*/
+ul
+{
+    color: white;
+    list-style: none;
+    padding: 0;
+}
+
+/*Selecciones*/
+section
+{
+    padding: 25px;
+    margin: 20px;
+}
+
+/*Titulos*/
+h2
+{
+    color: rgb(41, 16, 0);
+}
+
+li
+{
+    background-color: rgb(49, 28, 13);
+    margin: 10px auto;
+    padding: 12px;
+    width: 250px;
+    border-radius: 8px;
+}
+
+/*Boton*/
+button
+{
+    background-color: rgb(43, 22, 6);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/*Efecto de Boton*/
+button:hover
+{
+    background-color: rgb(14, 6, 1);
+}
+
+/*Pie de pagina*/
+footer
+{
+    background-color: rgb(116, 94, 74);
+    color: white;
+    padding: 20px;
+}
